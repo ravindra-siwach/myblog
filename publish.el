@@ -4,7 +4,7 @@
       '(("posts"
          :base-directory "posts/"
          :base-extension "org"
-         :publishing-directory "docs/"
+         :publishing-directory "public/"
          :recursive t
          :publishing-function org-html-publish-to-html
          :auto-sitemap t)

@@ -19,7 +19,7 @@ publish_no_init: publish.el
 clean:
 	@echo "Cleaning up.."
 	@rm -rvf *.elc
-	@rm -rvf docs
+	@rm -rvf public
 	@rm -rvf ~/.org-timestamps/*
 
 # end
