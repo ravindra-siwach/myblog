@@ -2,3 +2,4 @@
 
 - [[file:post_20201004.org][Post 20201004]]
 - [[file:index.org][index]]
+- [[file:post_20201005.org][post_20201005]]
