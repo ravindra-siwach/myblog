@@ -1,11 +1,20 @@
 (require 'ox-publish)
 
 (setq org-publish-project-alist
-      '(("posts"
-         :base-directory "posts/"
+      '(("myblog"
+
+         ;; Path to org files
+         :base-directory "~/repos/myblog/_org"
          :base-extension "org"
-         :publishing-directory "public/"
+
+         ;; Path to jekyll posts
+         :publishing-directory "~/repos/myblog/"
          :recursive t
          :publishing-function org-html-publish-to-html
-         :auto-sitemap t)
-        ("all" :components ("posts"))))
+         :headline-levels 4
+         :html-extension "html"
+         :body-only t
+         ;; :auto-sitemap t
+         )
+        ;; ("all" :components ("posts"))
+        ))

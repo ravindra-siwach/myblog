@@ -1,0 +1,14 @@
+#+OPTIONS: toc:nil num:nil
+#+BEGIN_EXPORT html
+---
+layout: post
+title: "First post"
+permalink: /:title/
+tags: [emacs]
+---
+#+END_EXPORT
+
+* First Heading
+Some text to test the first blog
+* Another heading
+** Heading level 2

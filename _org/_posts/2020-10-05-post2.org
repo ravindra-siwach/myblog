@@ -1,0 +1,15 @@
+#+OPTIONS: toc:nil num:nil
+#+BEGIN_EXPORT html
+---
+layout: post
+title: "Second post"
+permalink: /:title/
+tags: [emacs]
+---
+#+END_EXPORT
+
+* Topic
+** Sub-topic
+Some text here which can be a description of this heading.
+
+* Topic 2
